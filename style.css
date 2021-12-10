@@ -1,0 +1,147 @@
+/*
+universal rules
+*/
+html
+{
+    background: #1E2122;
+}
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #d8d4cf;
+    border-top: 10px solid #eee;
+    background: #323638;
+}
+h1
+{
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+p
+{
+    line-height: 1.4em;
+}
+/*
+Universal navigation sticky
+*/
+.navigation
+{
+    display: inline-block;
+    background-color:#d8d4cf;
+    margin: 5px;
+    margin-right: 47px;
+}
+a.current {
+    background-color: grey;
+    color: black;
+}
+.sticky
+{
+    background:#1E2122;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+/*
+contacts formatting for about page
+*/
+.contacts 
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.contacts img
+{
+    width: 50px;
+    height:auto;
+}
+.contacts li
+{
+    display:inline-block;
+}
+.contacts li a img:hover
+{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+/*
+setting picture size for buttons on store page
+*/
+.cable
+{
+    width: 30%;
+    height: auto;
+}
+
+#storeitems
+{
+    background-color:#1E2122;
+    color:#d8d4cf;
+    align-items:right;
+
+}
+
+.producttext
+{
+    color:#d8d4cf;
+    background-color: #d8d4cf;
+    float: left;
+    clear:left;
+    margin-right: 30%;
+    margin-left: 20%;
+    margin-top: 7%;
+    padding: 1%
+}
+
+.producttext2
+{
+    color:#d8d4cf;
+    background-color: #d8d4cf;
+    float: left;
+    clear:left;
+    margin-right: 31.25%;
+    margin-left: 20%;
+    margin-top: 7%;
+    padding: 1%
+}
+.producttexttext
+{
+    float:left;
+    clear:left;
+    margin-left: 22%;
+    margin-top: -2%;
+    padding: 1%
+
+}
+
+#border
+{
+    background-color:#1E2122;
+    color:#d8d4cf;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+#blog
+{
+    background-color:#1E2122;
+    color:#d8d4cf;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.headerpadding
+{
+    padding-top: 1%;
+}
+
+.center
+{
+    text-align: center;
+}
