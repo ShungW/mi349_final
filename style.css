@@ -144,3 +144,77 @@ setting picture size for buttons on store page
 {
     text-align: center;
 }
+
+@media (max-width: 400px) 
+{
+    body
+    {
+        margin: 30px;
+        padding: 20px;
+        color: #e9d0b2;
+        
+    }
+    section
+    {
+        margin: 0;
+        padding: 0;
+    }
+    article
+    {
+        padding: 0;
+    }
+    .cable
+    {
+      width: 200px;
+      height: auto;
+      align-items: center;
+      margin-left: 10%;
+    }
+    section
+    {
+        display:inline-block;
+    }
+    .navigation
+    {
+    display: inline-block;
+    background-color:#d8d4cf;
+    margin-right: 10px;
+    padding: 1px;
+    }
+    
+    .producttext
+    {
+        color:#d8d4cf;
+        font-size: .75em;
+        background-color: #d8d4cf;
+        float: left;
+        clear:left;
+        margin-right: 30%;
+        margin-left: 20%;
+        margin-top: 7%;
+        padding: 1%
+    }
+
+    .producttext2
+    {
+        color:#d8d4cf;
+        font-size: .75em;
+        background-color: #d8d4cf;
+        float: left;
+        clear:left;
+        margin-right: 31.25%;
+        margin-left: 20%;
+        margin-top: 7%;
+        padding: 1%
+    }
+    .producttexttext
+    {
+        font-size: .5em;
+        float:left;
+        clear:left;
+        margin-left: 30%;
+        margin-top: -2%;
+        padding: 1%
+
+    }
+}
